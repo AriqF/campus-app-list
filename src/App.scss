@@ -3,21 +3,37 @@
 }
 
 #page-title{
-  text-shadow: 4px 4px 6px rgba(243,240,240,0.36);
+  text-shadow: 4px 4px 4px rgba(233,233,233,0.13);
 }
 .page-section{
   background-color: transparent;
-  padding-bottom: 18px;
+  padding-bottom: 32px;
 }
 
 #page-header{
   width: 100%;
-  height: 100vh;
+  height: 50em;
   padding-top: 12em;
 }
 
 #page-header h1{
   font-size: 3em;
+}
+
+.footer{
+  font-size: '3em';
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.footer-text{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.footer-logo{
+  width: 10em;
+  height: 10em;
 }
 
 #webProject{
@@ -52,5 +68,21 @@
   background-color: #139CCE;
   color: #fff;
 }
+
+
+
+@media (max-width: 768px){
+  .page-section{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn{
+    width:  100%;
+  }
+}
+
+
 
 

@@ -7,9 +7,7 @@ const ManGo = () => {
   return (
     <div className="project-items">
         <img className="img-fluid project-img" src={imgMango} alt="mango-project"/>
-        <a href="https://github.com/AriqF/man-go" className="projectLink">
-            <h4>ManGo</h4>
-        </a>
+        <h4 className='projectLink'>ManGo</h4>
         <div className="box-body">
             <Button href="https://github.com/AriqF/man-go" variant="custom" className="btn btn-app">Go To App</Button>
         </div> 
